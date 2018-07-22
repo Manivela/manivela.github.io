@@ -9,6 +9,33 @@
           rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" 
           crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script>
+      window.fbMessengerPlugins = window.fbMessengerPlugins || {
+        init: function () {
+          FB.init({
+            appId            : '1678638095724206',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.10'
+          });
+        }, callable: []
+      };
+      window.fbAsyncInit = window.fbAsyncInit || function () {
+        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+        window.fbMessengerPlugins.init();
+      };
+      setTimeout(function () {
+        (function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) { return; }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      }, 0);
+      </script>
+      
   </head>
   <body>
     <div class="site-wrapper">
@@ -27,6 +54,11 @@
             <p class="lead">
               <a href="/blog" class="btn btn-lg btn-default">Blog</a>
             </p>
+          </div>
+          <div
+            class="fb-customerchat"
+            page_id="395368840943785"
+            ref="univerlist">
           </div>
         </div>
       </div>
