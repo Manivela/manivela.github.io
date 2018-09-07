@@ -1,78 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Yunus Gulcu</title>
-    <meta name="description" content="Profile page for Yunus Gulcu">
-    <meta name="author" content="Yunus Gulcu">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" 
-          rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" 
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <script>
-      window.fbMessengerPlugins = window.fbMessengerPlugins || {
-        init: function () {
-          FB.init({
-            appId            : '1678638095724206',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v2.10'
-          });
-        }, callable: []
-      };
-      window.fbAsyncInit = window.fbAsyncInit || function () {
-        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
-        window.fbMessengerPlugins.init();
-      };
-      setTimeout(function () {
-        (function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) { return; }
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      }, 0);
-      </script>
-      <!-- Start of Woopra Code -->
-      <script>
-        (function(){
-          var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
-        })("woopra");
 
-        woopra.config({
-            domain: 'www.yunusgulcu.com'
-        });
-        woopra.track();
-      </script>
-      <!-- End of Woopra Code -->
-  </head>
-  <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="container">
-          <div class="masthead clearfix">
-            <div class="container inner">
-              <h3 class="masthead-brand">Yunus Gulcu</h3>
-            </div>
+<head>
+  <meta charset="utf-8">
+  <title>Yunus Gulcu</title>
+  <meta name="description" content="Profile page for Yunus Gulcu">
+  <meta name="author" content="Yunus Gulcu">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="container">
+        <div class="masthead clearfix">
+          <div class="container inner">
+            <h3 class="masthead-brand">Yunus Gulcu</h3>
           </div>
+        </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Hello There!</h1>
-            <p class="lead">I intend to fill this page with links to my online presence.</p>
-            <p class="lead">Feel Free to ask me anything over at my blog or by E-Mail.</p>
-            <p class="lead">
+        <div class="inner cover">
+          <h1 class="cover-heading">Hello There!</h1>
+          <p class="lead">I intend to fill this page with links to my online presence.</p>
+          <a href="https://www.facebook.com/yunus.gulcu" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-pinterest"></a><br>
+          <a href="#" class="fa fa-snapchat-ghost"></a>
+          <a href="#" class="fa fa-skype"></a>
+          <a href="#" class="fa fa-android"></a>
+          <a href="#" class="fa fa-tumblr"></a>
+          <a href="#" class="fa fa-foursquare"></a>
+          <a href="#" class="fa fa-yahoo"></a>
+          <a href="#" class="fa fa-reddit"></a>
+          <p class="lead">Feel Free to ask me anything over at my blog or by E-Mail.</p>
+          <div class="d-flex justify-content-center">
+            <p class="lead mr-5">
               <a href="/blog" class="btn btn-lg btn-default">Blog</a>
             </p>
+            <p class="lead">
+              <a href="mailto:yunus.gulcu35@gmail.com" class="btn btn-lg btn-default">E-Mail</a>
+            </p>
           </div>
-          <div
-          class="fb-customerchat"
-          page_id="1350230565058532"
-          ref="">
-         </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
