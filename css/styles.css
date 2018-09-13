@@ -114,6 +114,10 @@ body {
   text-decoration: none;
 }
 
+.fa-github {
+  background: #212529;
+}
+
 .fa-facebook {
   background: #3b5998;
 }
