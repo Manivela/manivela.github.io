@@ -1,5 +1,6 @@
 rules:
   default:
     protection:
-      required_status_checks:
-        contexts: []
+      required_status_checks: null
+      required_pull_request_reviews: null
+      enforce_admins: true
